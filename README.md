@@ -17,7 +17,7 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 ```
-Для генерации ответа использовать функцию `generate_hse_answer`
+Для генерации ответа использовать функцию `generate_hse_answer` из `gemmaX2.ipynb`
 
 **Пример использования:**
 ```
